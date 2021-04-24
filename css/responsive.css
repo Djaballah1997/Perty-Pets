@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header .container .main-nav {
+    display: flex;
+    align-items: center;
+  }
+  header .container .main-nav li {
+    display: inline-block;
+  }
+  header .container .main-nav li a {
+    color: #fff;
+  }
+  header .container .burger {
+    display: none;
+  }
+  /***************start main*-*****************/
+  .hero {
+    height: 60vh;
+  }
+  .hero .container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+  }
+  .hero .hero__desc {
+    width: 46%;
+    margin: 0px;
+  }
+  .hero .hero__desc p {
+    line-height: 28px;
+  }
+  .hero__image {
+    width: 48%;
+    height: 230px;
+    margin: 0px;
+    text-align: end;
+  }
+  .hero__image img {
+    width: 80%;
+  }
+  /****************start meetYourMatch*******************/
+  .switcher {
+    justify-content: center;
+  }
+  .switcher img {
+    margin: 15px 30px;
+  }
+  .switcher input {
+    display: none;
+  }
+  .background {
+    background-color: #EEF0FC;
+    ;
+    width: 65%;
+    margin: 0 auto;
+    padding: 18px 25px;
+    border-radius: 18px;
+  }
+  .form-group {
+    margin-bottom: 30px;
+  }
+  .form-group input[type="text"] {
+    padding: 20px 120px;
+    border-radius: 30px;
+    outline: none;
+    border: solid 1px #3040C4;
+    border-right: none;
+    color: #3040C4;
+  }
+  .form-group .is-primary {
+    display: inline-block;
+    margin-left: -40px;
+    padding: 20px 32px;
+    background-color: #3040C4;
+    border-radius: 22px;
+    color: #fff;
+  }
+  /*******************statr widget*****************/
+  .widgets {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: -35px auto;
+  }
+  .widget {
+    width: 40%;
+  }
+  /***************start stories******************/
+  .stories .widgets {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+  }
+  .stories .widget {
+    width: 48%;
+  }
+  .stories .widget:nth-child(3) {
+    margin-left: 0;
+  }
+  /***************start howItWorks******************/
+  .is-howItWorks {
+    display: flex;
+    flex-direction: column;
+  }
+  .is-howItWorks .widget {
+    margin: 61px auto;
+    width: 50%;
+  }
+  /*************start actions************/
+  .actions .button {
+    padding: 12px 35px;
+    margin: 15px 5px;
+  }
+  /****************start footer****************/
+  footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%;
+  }
+  footer .copyrights {
+    width: 20%;
+  }
+  footer .footer-nav {
+    width: 90%;
+  }
+  footer .footer-nav .item {
+    width: 15%;
+  }
+}
+@media (min-width: 992px) {
+  /******************start header****************/
+  header .container .main-nav {
+    display: flex;
+  }
+  header .container .main-nav li {
+    display: inline-block;
+  }
+  header .container .burger {
+    display: none;
+  }
+  /***************start main*-*****************/
+  .hero {
+    height: 60vh;
+  }
+  .hero .container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+  }
+  .hero .hero__desc {
+    width: 46%;
+    margin: 0px;
+  }
+  .hero .hero__desc p {
+    line-height: 32px;
+  }
+  .hero__image {
+    width: 42%;
+  }
+  /****************start meetYourMatch*******************/
+  .switcher {
+    justify-content: center;
+  }
+  .switcher img {
+    margin: 15px 30px;
+  }
+  .switcher input {
+    display: none;
+  }
+  .background {
+    background-color: #EEF0FC;
+    ;
+    width: 65%;
+    margin: 0 auto;
+    padding: 18px 25px;
+    border-radius: 18px;
+  }
+  .form-group {
+    margin-bottom: 40px;
+  }
+  .form-group input[type="text"] {
+    padding: 20px 120px;
+    border-radius: 30px;
+    outline: none;
+    border: solid 1px #3040C4;
+    border-right: none;
+    color: #3040C4;
+  }
+  .form-group .is-primary {
+    display: inline-block;
+    margin-left: -40px;
+    padding: 20px 32px;
+    background-color: #3040C4;
+    border-radius: 22px;
+    color: #fff;
+  }
+  /*******************statr widget*****************/
+  .widgets {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: -35px auto;
+  }
+  .widget {
+    width: 24%;
+  }
+  /***************start howItWorks******************/
+  .is-howItWorks {
+    display: flex;
+    flex-direction: row;
+  }
+  .is-howItWorks .widget {
+    margin: 61px auto;
+    width: 30%;
+  }
+  /***************start stories******************/
+  .stories .widgets {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+  }
+  .stories .widget {
+    width: 30%;
+  }
+  /**************action****************/
+  .actions {
+    height: 250px;
+  }
+  footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%;
+  }
+  footer .copyrights {
+    width: 20%;
+  }
+  footer .footer-nav {
+    width: 90%;
+  }
+  footer .footer-nav .item {
+    width: 15%;
+  }
+}
